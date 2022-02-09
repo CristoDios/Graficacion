@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>
+        LIENZO
+    </title>
+</head>
+<body>
+
+    <canvas width="1000" height="1000" style="background-color: rgb(197, 226, 226)" onmousedown="opcion(event)">
+    </canvas>
+
+    <div id="radiobuttonset">
+        <input type="radio" id="myradio_1" name="radiobutton" value="1" />Directo
+        <input type="radio" id="myradio_2" name="radiobutton" value="2" />DDA
+        <input type="radio" id="myradio_3" name="radiobutton" value="3" />Bresenham
+        <input type="radio" id="myradio_4" name="radiobutton" value="4" />Prueba
+    </div>
+
+    <script type="text/javascript" src="Directo.js"></script>
+    <script type="text/javascript" src="DDA.js"></script>
+    <script type="text/javascript" src="Bresenham.js"></script>
+</body>
+</html>
